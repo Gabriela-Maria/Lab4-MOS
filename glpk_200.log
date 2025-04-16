@@ -1,29 +1,29 @@
-Solver command line: ['C:\\Users\\Gabriela Escobar\\anaconda3\\envs\\pyomo_env\\Library\\bin\\glpsol.exe', '--write', 'C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\tmptm7i9kxg.glpk.raw', '--wglp', 'C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\tmps3htm7r4.glpk.glp', '--cpxlp', 'C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\tmptle_6q9m.pyomo.lp']
+Solver command line: ['C:\\Users\\Gabriela Escobar\\anaconda3\\envs\\pyomo_env\\Library\\bin\\glpsol.exe', '--write', 'C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\tmpfd84j14t.glpk.raw', '--wglp', 'C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\tmpu23mepfc.glpk.glp', '--cpxlp', 'C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\tmphib4dinm.pyomo.lp']
 
 GLPSOL--GLPK LP/MIP Solver 5.0
 Parameter(s) specified in the command line:
- --write C:\Users\GABRIE~1\AppData\Local\Temp\tmptm7i9kxg.glpk.raw --wglp
- C:\Users\GABRIE~1\AppData\Local\Temp\tmps3htm7r4.glpk.glp --cpxlp C:\Users\GABRIE~1\AppData\Local\Temp\tmptle_6q9m.pyomo.lp
-Reading problem data from 'C:\Users\GABRIE~1\AppData\Local\Temp\tmptle_6q9m.pyomo.lp'...
+ --write C:\Users\GABRIE~1\AppData\Local\Temp\tmpfd84j14t.glpk.raw --wglp
+ C:\Users\GABRIE~1\AppData\Local\Temp\tmpu23mepfc.glpk.glp --cpxlp C:\Users\GABRIE~1\AppData\Local\Temp\tmphib4dinm.pyomo.lp
+Reading problem data from 'C:\Users\GABRIE~1\AppData\Local\Temp\tmphib4dinm.pyomo.lp'...
 201 rows, 201 columns, 40001 non-zeros
 41012 lines were read
-Writing problem data to 'C:\Users\GABRIE~1\AppData\Local\Temp\tmps3htm7r4.glpk.glp'...
+Writing problem data to 'C:\Users\GABRIE~1\AppData\Local\Temp\tmpu23mepfc.glpk.glp'...
 40807 lines were written
 GLPK Simplex Optimizer 5.0
 201 rows, 201 columns, 40001 non-zeros
 Preprocessing...
 200 rows, 200 columns, 40000 non-zeros
 Scaling...
- A: min|aij| =  9.579e-05  max|aij| =  5.000e+00  ratio =  5.220e+04
-GM: min|aij| =  5.798e-03  max|aij| =  1.725e+02  ratio =  2.975e+04
-EQ: min|aij| =  3.362e-05  max|aij| =  1.000e+00  ratio =  2.975e+04
+ A: min|aij| =  3.341e-05  max|aij| =  5.000e+00  ratio =  1.497e+05
+GM: min|aij| =  5.323e-03  max|aij| =  1.879e+02  ratio =  3.530e+04
+EQ: min|aij| =  2.833e-05  max|aij| =  1.000e+00  ratio =  3.530e+04
 Constructing initial basis...
 Size of triangular part is 200
 *     0: obj =  -0.000000000e+00 inf =   0.000e+00 (200)
-*   121: obj =   8.492105974e+02 inf =   0.000e+00 (0) 1
+*   151: obj =   8.779437588e+02 inf =   0.000e+00 (0) 1
 OPTIMAL LP SOLUTION FOUND
-Time used:   0.0 secs
+Time used:   0.1 secs
 Memory used: 6.6 Mb (6940644 bytes)
-Writing basic solution to 'C:\Users\GABRIE~1\AppData\Local\Temp\tmptm7i9kxg.glpk.raw'...
+Writing basic solution to 'C:\Users\GABRIE~1\AppData\Local\Temp\tmpfd84j14t.glpk.raw'...
 411 lines were written
 

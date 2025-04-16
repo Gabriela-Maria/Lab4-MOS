@@ -1,28 +1,29 @@
-Solver command line: ['C:\\Users\\Gabriela Escobar\\anaconda3\\envs\\pyomo_env\\Library\\bin\\glpsol.exe', '--write', 'C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\tmpvabj2rx3.glpk.raw', '--wglp', 'C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\tmpqfuy_n_e.glpk.glp', '--cpxlp', 'C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\tmpv3wofujv.pyomo.lp']
+Solver command line: ['C:\\Users\\Gabriela Escobar\\anaconda3\\envs\\pyomo_env\\Library\\bin\\glpsol.exe', '--write', 'C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\tmpegpezvx6.glpk.raw', '--wglp', 'C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\tmpqway91o2.glpk.glp', '--cpxlp', 'C:\\Users\\GABRIE~1\\AppData\\Local\\Temp\\tmp0ocyzpxw.pyomo.lp']
 
 GLPSOL--GLPK LP/MIP Solver 5.0
 Parameter(s) specified in the command line:
- --write C:\Users\GABRIE~1\AppData\Local\Temp\tmpvabj2rx3.glpk.raw --wglp
- C:\Users\GABRIE~1\AppData\Local\Temp\tmpqfuy_n_e.glpk.glp --cpxlp C:\Users\GABRIE~1\AppData\Local\Temp\tmpv3wofujv.pyomo.lp
-Reading problem data from 'C:\Users\GABRIE~1\AppData\Local\Temp\tmpv3wofujv.pyomo.lp'...
+ --write C:\Users\GABRIE~1\AppData\Local\Temp\tmpegpezvx6.glpk.raw --wglp
+ C:\Users\GABRIE~1\AppData\Local\Temp\tmpqway91o2.glpk.glp --cpxlp C:\Users\GABRIE~1\AppData\Local\Temp\tmp0ocyzpxw.pyomo.lp
+Reading problem data from 'C:\Users\GABRIE~1\AppData\Local\Temp\tmp0ocyzpxw.pyomo.lp'...
 11 rows, 11 columns, 101 non-zeros
 162 lines were read
-Writing problem data to 'C:\Users\GABRIE~1\AppData\Local\Temp\tmpqfuy_n_e.glpk.glp'...
+Writing problem data to 'C:\Users\GABRIE~1\AppData\Local\Temp\tmpqway91o2.glpk.glp'...
 147 lines were written
 GLPK Simplex Optimizer 5.0
 11 rows, 11 columns, 101 non-zeros
 Preprocessing...
 10 rows, 10 columns, 100 non-zeros
 Scaling...
- A: min|aij| =  1.232e-01  max|aij| =  4.994e+00  ratio =  4.054e+01
-Problem data seem to be well scaled
+ A: min|aij| =  9.993e-02  max|aij| =  4.991e+00  ratio =  4.995e+01
+GM: min|aij| =  1.944e-01  max|aij| =  5.145e+00  ratio =  2.647e+01
+EQ: min|aij| =  3.801e-02  max|aij| =  1.000e+00  ratio =  2.631e+01
 Constructing initial basis...
 Size of triangular part is 10
 *     0: obj =  -0.000000000e+00 inf =   0.000e+00 (10)
-*     6: obj =   3.842229399e+01 inf =   0.000e+00 (0)
+*     5: obj =   3.170811408e+01 inf =   0.000e+00 (0)
 OPTIMAL LP SOLUTION FOUND
 Time used:   0.0 secs
 Memory used: 0.1 Mb (62411 bytes)
-Writing basic solution to 'C:\Users\GABRIE~1\AppData\Local\Temp\tmpvabj2rx3.glpk.raw'...
+Writing basic solution to 'C:\Users\GABRIE~1\AppData\Local\Temp\tmpegpezvx6.glpk.raw'...
 31 lines were written
 
